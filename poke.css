@@ -1,0 +1,155 @@
+.header{
+    margin: 20px;
+    text-align: center;
+    background-color: black;
+    color: rgb(237, 229, 229);
+    font-family: cursive,Arial;
+    font-size: 50px;
+    
+}
+
+.bodycss{
+    background-color: grey;   
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.alphabet,.number{
+
+    margin: 30px;
+}
+.searchbar{
+    height: 30px;
+    width: 250px;
+    padding-left: 20px;
+    background-color: rgb(213, 201, 201);
+    border: 3px solid black;
+    border-radius: 30px;
+    font-family: cursive;
+
+}
+.searchbar:hover{
+
+    opacity:0.5;
+
+}
+.searchbtn{
+    height: 25px;
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    border: 1px grey;
+    border-radius: 30px;
+
+}
+.searchbtn:hover{
+    opacity: 0.5;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+}
+
+.image{
+    margin: 10px;
+    padding: 10px;
+    border:3px solid black;
+    border-radius: 15px;
+    background-color: rgb(198, 189, 189);
+    
+}
+.description{
+
+    display: inline-block;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+.num{
+    font-size: 30px;
+    margin: 10px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px black solid;
+    padding: 5px;
+}
+
+.grass{
+    
+    font-weight: bold;
+    border: 1px black solid;
+    padding: 5px;
+    background-color: rgb(78, 127, 6);
+    width:fit-content;
+    border-radius: 30px;
+
+}
+.poison{
+
+    font-weight: bold;
+    border: 1px black solid;
+    padding: 5px;
+    background-color: rgb(155, 20, 155);
+    width: fit-content;
+    border-radius: 30px;
+}
+.fire{
+    font-weight: bold;
+    border: 1px black solid;
+    padding: 5px;
+    background-color: orange;
+    width:fit-content;
+    border-radius: 30px;
+}
+.flying{
+    font-weight: bold;
+    border: 1px black solid;
+    padding: 5px;
+    background-color: rgb(88, 88, 176);
+    width:fit-content;
+    border-radius: 30px;
+}
+.normal{
+    font-weight: bold;
+    border: 1px black solid;
+    padding: 5px;
+    background-color: white;
+    width:fit-content;
+    border-radius: 30px;
+}
+.bug{
+    font-weight: bold;
+    border: 1px black solid;
+    padding: 5px;
+    background-color: rgb(170, 5, 5);
+    width:fit-content;
+    border-radius: 30px;
+}
+.water{
+    font-weight: bold;
+    border: 1px black solid;
+    padding: 5px;
+    background-color: skyblue;
+    width:fit-content;
+    border-radius: 30px;
+}
+.ul{
+    list-style: none;
+}
+.refer{
+    margin-top: 350px;
+}
